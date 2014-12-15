@@ -132,14 +132,3 @@ function title {
 }
 
 . /home/aparagas/bashScripts/z.sh
-
-# Paths for Android Development SDKs
-JAVA_HOME=/usr/local/java/jdk1.8.0_25
-ANDROID_HOME=/home/aparagas/android/sdk
-ANT_HOME=/usr/local/apacheAnt/apache-ant-1.9.4
-PATH=${PATH}:$HOME/bin:$JAVA_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANT_HOME/bin
-export JAVA_HOME
-export ANDROID_HOME
-export ANT_HOME
-export PATH
-export PATH=$HOME/local/bin:$PATH
