@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/aparagas/Development/stelaDash'
+let g:netrw_dirhist_2='/home/aparagas/Development/stelaDash/js'
+let g:netrw_dirhist_3='/home/aparagas/.vim'

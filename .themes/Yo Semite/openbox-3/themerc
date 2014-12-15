@@ -1,0 +1,191 @@
+
+!!------------------------------------------------------------------------
+
+!! OpenBox Theme : Yo Semite
+!! Original Name : Owl Rmx
+!! Original Author : Leodelacruz
+!! Edited: qt
+!! Original Date : 9.6.2012
+!! Edited Date : 15.6.2012
+
+# Window geometry
+padding.width: 2
+padding.height: 3
+border.width: 1
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+menu.border.width: 3
+menu.overlap: 0
+
+
+!!------------------------------------------------------------------------
+
+!! MENU SETTINGS
+
+!!------------------------------------------------------------------------
+
+# M E N U =====================================================
+
+menu.title.bg: Flat Gradient Vertical
+menu.title.bg.color: #303030
+menu.title.bg.colorTo: #202020
+menu.title.text.color: #c0c0c0
+menu.title.text.justify: Left
+menu.items.bg: Flat Solid
+menu.items.bg.color: #202020
+menu.items.text.color: #8f8f8f
+menu.items.disabled.text.color: #c3c3c3
+menu.items.active.bg: Flat Gradient Vertical
+menu.items.active.bg.color: #303030
+menu.items.active.bg.colorTo: #202020
+menu.items.active.text.color: #c0c0c0
+menu.items.active.disabled.text.color: #c3c3c3
+osd.border.width: 0
+osd.border.color:  #707070
+osd.bg: flat border vertical gradient
+osd.bg.color: #303030
+osd.bg.colorTo: #303030
+osd.bg.border.color: #c0c0c0
+osd.label.bg: parentrelative
+osd.label.text.color: #c0c0c0
+osd.label.bg: parentrelative
+osd.label.text.color: #c0c0c0
+
+# O S D =======================================================
+
+osd.hilight.bg:					vertical flat border
+osd.hilight.bg.color:				#262729
+								
+osd.hilight.bg.border.color:			#262626
+
+!!------------------------------------------------------------------------
+
+!! WINDOW SETTINGS
+
+!!------------------------------------------------------------------------
+!! alt title bg colour:#292929
+!! window title
+
+window.active.title.bg: 			Flat Vertical
+window.active.title.bg.color: 			#303030
+
+window.inactive.title.bg: 			Flat Vertical
+window.inactive.title.bg.color: 		#303030
+
+!!------------------------------------------------------------------------
+
+!! window text
+
+padding.width: 					2
+padding.height: 				2
+window.label.text.justify:			center
+
+window.active.label.bg: 			Flat Vertical
+window.active.label.bg.color:			#303030
+window.active.label.bg.colorTo:			#303030
+window.active.label.text.color: 		#E4E4E4
+
+window.inactive.label.bg: 			Flat Vertical
+window.inactive.label.bg.color:			#303030
+window.inactive.label.bg.colorTo:		#303030
+window.inactive.label.text.color: 		#A5A5A5
+
+!!------------------------------------------------------------------------
+
+!! window borders
+
+border.width: 					1
+border.color: 					#303030
+
+window.client.padding.width: 			0
+window.client.padding.height:			0			
+
+window.active.client.color:			#303030
+window.inactive.client.color:			#303030
+
+window.active.title.separator.color:		#303030
+window.inactive.title.separator.color:		#303030
+
+!!------------------------------------------------------------------------
+
+!! window handle and grip
+
+window.handle.width: 				0
+
+window.active.handle.bg: 			Flat Vertical
+window.active.handle.bg.color: 			#303030
+
+window.active.grip.bg: 				Flat Vertical
+window.active.grip.bg.color: 			#303030
+
+window.inactive.handle.bg: 			Flat Vertical
+window.inactive.handle.bg.color: 		#303030
+
+window.inactive.grip.bg: 			Flat Vertical
+window.inactive.grip.bg.color: 			#303030
+
+!!------------------------------------------------------------------------
+
+!! WINDOW BUTTONS
+
+!!------------------------------------------------------------------------
+
+!! ACTIVE
+
+window.active.button.unpressed.bg: 		Parentrelative
+window.active.button.unpressed.image.color: 	#ADADAD
+
+window.active.button.pressed.bg: 		Parentrelative
+window.active.button.pressed.image.color: 	#656565
+
+window.active.button.disabled.bg: 		Parentrelative
+window.active.button.disabled.image.color: 	#000000
+
+window.active.button.hover.bg:			Parentrelative
+window.active.button.hover.image.color:		#ffffff
+
+window.active.button.toggled.bg: 		Parentrelative
+window.active.button.toggled.image.color: 	#656565
+
+
+!!------------------------------------------------------------------------
+
+!! INACTIVE
+
+
+window.inactive.button.unpressed.bg: 		Parentrelative
+window.inactive.button.unpressed.image.color: 	#5F5F5F
+
+window.inactive.button.pressed.bg: 		Parentrelative
+window.inactive.button.pressed.image.color: 	#303030
+
+window.inactive.button.disabled.bg: 		Parentrelative
+window.inactive.button.disabled.image.color:	#303030
+
+window.inactive.button.hover.bg:		Parentrelative
+window.inactive.button.hover.image.color:	#ffffff
+
+window.inactive.button.toggled.bg: 		Parentrelative
+window.inactive.button.toggled.image.color: 	#303030
+
+!!------------------------------------------------------------------------
+
+!! OSD SETTINGS
+
+osd.hilight.bg:					flat
+osd.hilight.bg.color:				#356AA0
+
+osd.unhilight.bg:				flat
+osd.unhilight.bg.color:				#E04613
+
+osd.border.width:				1
+osd.border.color:				#FAFAFA
+
+osd.label.text.color				#FAFAFA
+
+### Fonts
+window.active.label.text.font:shadow=y:shadowtint=0:shadowoffset=0
+window.inactive.label.text.font:shadow=y:shadowtint=0:shadowoffset=0
+menu.items.font:
+menu.title.text.font:shadow=y:shadowtint=0

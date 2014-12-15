@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Yo Semite
+Comment=inspired by OS X Yosemite
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Numix Daily
+ButtonLayout=:minimize,maximize,close
