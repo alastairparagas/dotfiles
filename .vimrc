@@ -24,8 +24,12 @@ colorscheme wombat256mod
 :noremap <C-d> :sh <CR>
 :noremap <C-s> :w<CR>
 :inoremap <C-s> <c-o>:w<CR>
+:inoremap <C-p> <esc>:CtrlP<CR>
+:inoremap <C-n> <esc>:bprev<CR>
+:inoremap <C-m> <esc>:bnext<CR>
 :noremap <C-n> :bprev <CR>
 :noremap <C-m> :bnext <CR>
+
 
 "Backup and swap files https://news.ycombinator.com/item?id=1688068
 set backupdir=~/.vim/backup//
@@ -41,3 +45,6 @@ let g:airline_left_sep = '»'
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '«'
 let g:airline_right_sep = '◀'
+
+"CtrlP
+let g:ctrlp_map = '<c-p>'
