@@ -22,11 +22,10 @@ colorscheme wombat256mod
 
 "Keyboard Shortcuts
 :noremap <C-d> :sh <CR>
-:noremap <C-s> :w<CR>
-:inoremap <C-s> <c-o>:w<CR>
-:inoremap <C-p> <esc>:CtrlP<CR>
-:inoremap <C-n> <esc>:bprev<CR>
-:inoremap <C-m> <esc>:bnext<CR>
+:noremap <C-s> :w <CR>
+:inoremap <C-s> <c-o>:w <CR>
+:inoremap <C-p> <esc>:CtrlP <CR>
+:inoremap <C-n> <BS>
 :noremap <C-n> :bprev <CR>
 :noremap <C-m> :bnext <CR>
 
