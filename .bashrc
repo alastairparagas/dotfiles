@@ -131,4 +131,4 @@ function title {
     echo -en "\033]2;$1\007"
 }
 
-. /home/aparagas/bashScripts/z.sh
+. ~/bashScripts/z.sh
